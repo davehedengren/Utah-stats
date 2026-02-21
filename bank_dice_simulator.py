@@ -643,7 +643,7 @@ def display_results(stats: dict[str, StrategyStats], num_games: int, num_rounds:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main():
-    NUM_GAMES = 10_000
+    NUM_GAMES = 1_000
     NUM_ROUNDS = 20
 
     strategies = [
